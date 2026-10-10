@@ -1,21 +1,21 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "negatron_isTuff",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "solocloud.host",
-    "port": 25565,
+    "ip": "N3gatr0n.aternos.me",
+    "port": 49229,
     "version": "1.20.1",
     "try-creative": false
   },
   "position": {
     "enabled": true,
-    "x": 0,
-    "y": 100,
-    "z": 0
+    "x": -11.047,
+    "y": -57.00000,
+    "z": 7.284
   },
   "utils": {
     "auto-auth": {
@@ -27,13 +27,13 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 1000000,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to SoloPlayz!",
-        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
+        "negatron_ is so tuff",
+        "negatron_ is so tuff!",
+        "W tht negatron_ is so tuff"
       ]
     },
     "chat-log": true,
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +69,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
